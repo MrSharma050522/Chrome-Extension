@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "New Tab Motivation",
+    "version": "1.0",
+    "description": "Display a random motivation quote", 
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "icons": {
+        "16": "download.ico"
+    }
+}
