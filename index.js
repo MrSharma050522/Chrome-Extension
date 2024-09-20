@@ -10,7 +10,6 @@ let cursor = document.getElementsByClassName('blob');
 
 if (cursor) {
   document.addEventListener('mousemove', function(e) {
-    console.log("Mouse moving", cursor);
     let x = e.clientX;
     let y = e.clientY;
     cursor[0].style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
